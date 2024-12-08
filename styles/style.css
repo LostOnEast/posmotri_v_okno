@@ -51,10 +51,8 @@ ol {
 
 .content {
   display: flex;
-
   height: 671px;
-
-  padding-bottom: 141px;
+  /* padding-bottom: 141px; */
 }
 
 .result {
@@ -233,17 +231,18 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  overflow: hidden;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  justify-content: flex-end;
 }
 
 .content__list {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 450px;
+  height: 300px;
   overflow: scroll;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .content__list::-webkit-scrollbar {
