@@ -13,7 +13,7 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -33,6 +33,7 @@ fieldset {
   margin: 0;
   padding: 0;
 }
+
 .visually-hidden {
   position: absolute;
   overflow: hidden;
@@ -42,6 +43,7 @@ fieldset {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
 ul,
 ol {
   list-style: none;
@@ -54,47 +56,51 @@ ol {
 
   padding-bottom: 141px;
 }
+
 .result {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0px 30px 0px 30px;
+  padding: 0 30px;
 }
-.result__video {
-}
+
 .result__video-container {
   position: relative;
   width: 710px;
 }
+
 .result__video {
   width: 100%;
 }
+
 .search-form {
   display: flex;
   justify-content: space-between;
 }
+
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
   width: 224px;
   border: none;
-  font-family: "Fira Sans Condensed";
+  font-family: 'Fira Sans Condensed';
   text-wrap: nowrap;
 }
+
 .search-form__label {
   display: block;
   cursor: pointer;
 }
+
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
+
 .search-form__fieldset-title {
   display: block;
   margin-bottom: 4px;
-  font-family: "Fira Sans Condensed";
-  font-weight: inherit;
+  font-family: 'Fira Sans Condensed';
   font-weight: 100;
-  font-size: 17px;
   font-size: 18px;
   font-style: normal;
   line-height: 21.6px;
@@ -102,13 +108,14 @@ ol {
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
 }
+
 .search-form__textfield {
   width: 100%;
 
-  border-top: 1px solid rgba(255, 255, 255, 0.7);
-  border-right: 1px solid rgba(255, 255, 255, 0);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-  border-left: 1px solid rgba(255, 255, 255, 0);
+  border-top: 1px solid rgb(255 255 255 / 0.7);
+  border-right: 1px solid rgb(255 255 255 / 0);
+  border-bottom: 1px solid rgb(255 255 255 / 0.7);
+  border-left: 1px solid rgb(255 255 255 / 0);
   padding: 3px;
   font-family: inherit;
   font-size: 17px;
@@ -116,23 +123,27 @@ ol {
   background: none;
   appearance: none;
 }
+
 .search-form__textfield:hover {
-  border-top: 1px solid rgba(255, 255, 255, 1);
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  border-top: 1px solid rgb(255 255 255 / 1);
+  border-bottom: 1px solid rgb(255 255 255 / 1);
 }
+
 .search-form__textfield:active {
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid rgb(255 255 255 / 0.7);
 }
+
 .search-form__textfield:focus-visible {
   outline: none;
 }
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
   outline-offset: 1px;
 }
 
 .search-form__textfield::placeholder {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255 255 255 / 0.7);
 }
 
 .search-form__checkbox-list {
@@ -141,7 +152,7 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: "";
+  content: '';
 
   top: 1px;
   left: 1px;
@@ -150,8 +161,9 @@ ol {
   text-align: center;
   background-color: #fff;
 }
+
 .search-form__checkbox:active + .search-form__pseudo-checkbox::before {
-  content: "";
+  content: '';
 
   top: 1px;
   left: 1px;
@@ -160,6 +172,7 @@ ol {
   text-align: center;
   background-color: #fff;
 }
+
 .search-form__pseudo-checkbox {
   position: relative;
   display: inline-block;
@@ -168,16 +181,20 @@ ol {
   border: 1px solid #fff;
   vertical-align: middle;
 }
+
 .search-form__submit-button {
   align-self: flex-end;
   width: 192px;
 }
+
 .search-form__submit-button:focus-visible {
   outline: none;
 }
+
 .more-button {
   width: 100%;
 }
+
 .button {
   height: 33px;
   border: 1px solid #fff;
@@ -187,33 +204,39 @@ ol {
   background: none;
   cursor: pointer;
 }
+
 .button:active {
   background: #545050;
 }
+
 .button:hover {
   text-decoration: underline;
 }
+
 .button:focus-visible {
   outline: 1px solid white;
   outline-offset: 1px;
 }
+
 .title {
   margin-bottom: 27px;
   font-family: Oswald, sans-serif;
   font-size: 75px;
-  line-height: 65px;
   line-height: 68px;
   text-transform: uppercase;
 }
+
 .content__accent {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255 255 255 / 0.5);
 }
+
 .content__details {
   display: flex;
   flex-direction: column;
   width: 100%;
   overflow: hidden;
 }
+
 .content__list {
   position: relative;
   display: flex;
@@ -222,28 +245,35 @@ ol {
   overflow: scroll;
   color: #fff;
 }
+
 .content__list::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
+
 .content__card-link {
   display: block;
   margin: 2px;
   color: #fff;
   text-decoration: none;
 }
+
 .content__card-link_current {
   background: #545050;
 }
+
 .content__card-link:active {
   background: #545050;
 }
+
 .content__card-link:hover {
   text-decoration: underline;
 }
-.content__card-link:focus-visible {
+
+.content__card-link:visible {
   outline: none;
 }
+
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
@@ -257,9 +287,11 @@ ol {
   display: flex;
   justify-content: flex-start;
 }
+
 .content__video-card-description-container {
   width: 100%;
 }
+
 .content__video-card-thumbnail {
   width: 196px;
 }
