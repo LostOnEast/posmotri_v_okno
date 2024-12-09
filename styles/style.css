@@ -304,9 +304,7 @@ ol {
   gap: 4px;
   width: 100%;
   max-width: 200px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  
   padding-top: 3px;
   padding-left: 2px;
 }
@@ -329,6 +327,9 @@ ol {
 }
 
 .content__video-card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
