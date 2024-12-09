@@ -81,14 +81,11 @@ ol {
   margin-top: 17px;
   display: flex;
   justify-content: space-between;
-  /* gap: 5px; */
-  padding-right: -6px;
 }
 
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
-  /* width: 243px; */
   border: none;
   justify-content: center;
 }
@@ -150,7 +147,6 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
-  /* justify-content: space-around; */
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
