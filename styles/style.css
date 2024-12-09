@@ -6,7 +6,7 @@
 
 :root {
   --main-txt-color: #fff;
-  --main-accent-color: #545050
+  --main-accent-color: #545050;
 }
 
 html {
@@ -69,8 +69,6 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  
-  
 }
 
 .result__video {
@@ -118,7 +116,6 @@ ol {
 }
 
 .search-form__textfield {
-  width: 100%;
   width: 224px;
   border-top: 1px solid var(--main-txt-color);
   border-right: 1px solid transparent;
@@ -195,12 +192,6 @@ ol {
   width: 194px;
 }
 
-
-
-
-
-
-
 .more-button {
   width: 100%;
 }
@@ -212,12 +203,11 @@ ol {
   font-family: inherit;
   font-size: 18px;
   background: none;
-  cursor: pointer; 
+  cursor: pointer;
   line-height: 21.6px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
 }
 
 .button:active {
@@ -293,8 +283,6 @@ ol {
 .content__card-link_current {
   background: var(--main-accent-color);
 }
-
-
 
 .content__list-item {
   width: 100%;
