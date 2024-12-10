@@ -123,7 +123,6 @@ ol {
   font-family: inherit;
   font-size: 17px;
   color: inherit;
-  letter-spacing: 0.5px;
   background: none;
   appearance: none;
 }
@@ -190,9 +189,7 @@ ol {
   width: 194px;
 }
 
-.more-button {
-  width: 100%;
-}
+
 
 .button {
   height: 33px;
@@ -218,11 +215,16 @@ ol {
 
 .button:focus {
   outline: none;
-}
+}   
 
 .button:focus-visible {
   outline: 1px solid var(--main-txt-color);
   outline-offset: 1px;
+}
+
+.more-button {   
+  margin: 2px;     
+  width: calc(100% - 4px);
 }
 
 .title {
@@ -314,8 +316,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
-  text-align: left;
-  text-underline-position: from-font;
+  text-align: left;   
   text-decoration-skip-ink: none;
 }
 
@@ -335,7 +336,7 @@ ol {
   font-weight: 700;
   line-height: 30px;
   text-align: left;
-  text-underline-position: from-font;
+
   text-decoration-skip-ink: none;
   text-transform: uppercase;
 }
